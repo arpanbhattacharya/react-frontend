@@ -4,12 +4,29 @@
 
 #container{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #text-field{
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 20rem;
 }
 
 #upload{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 30rem;
+}
 
+#b{
+  border: none;
+  border-radius: 20px;
 }

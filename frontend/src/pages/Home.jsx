@@ -5,11 +5,11 @@ export default function Home(){
                 <div id="container">
                     <div id="text-field">
                         <textarea id="text"></textarea>
-                        <button>Go</button>
+                        <button id="b">Go</button>
                     </div>
                     <div id="upload">
-                        <input type="file"/>
-                        <button>Upload</button>
+                        <input id="file" type="file"/>
+                        <button id="bb">Upload</button>
                     </div>
                 </div>
             </div>
