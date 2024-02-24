@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 export default function Image() {
   const element = useRef(null);
@@ -17,6 +17,7 @@ export default function Image() {
       <div className="container">
         <div className="main">
           <div className="image" ref={element}>
+            <p>This is full Screen</p>
             <button id="fullscreen-btn" onClick={toggleFullScreen}>
               toggle
             </button>
